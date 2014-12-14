@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+
+.full-width {
+    width: 100vw;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+/* Backgrounds */
+.bg-endless-river {
+    background: -webkit-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* W3C */
+}
+
+.dark-blue-bg {
+    /* background: #34495E; */
+    /*
+  background: -webkit-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
+  background:    -moz-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
+  background:     -ms-linear-gradient(90deg, #73C8A9 10%, #373B44 90%);
+  background:      -o-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
+  background:         linear-gradient(90deg, #73C8A9 10%, #373B44 90%);
+        */
+    
+    
+
+  background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+        
+          
+    
+}
+
+.big-image {
+    max-height: 960px;
+    max-width: auto;
+}
+
+.mock-img {
+    padding-bottom: 30px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-invoked-blue {
+    color: #59ABE3;
+}
+
+.text-title {
+    font-size: 80px;
+    margin-bottom: 300px;
+    padding-bottom: 0;
+}
+
+.small-subtitle-text {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*http://www.blacktie.co/page/2 */
+
+#headerwrap {
+    padding-top: 15px;
+    min-height: 0.65vh;
+    width: 100%
+}
+
+#headerwrap h1 {
+    margin-top: 5px;
+    margin-bottom: 14px;
+    letter-spacing: inherit;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.section-panel {
+    margin-bottom: 40px;
+}
