@@ -20,25 +20,11 @@ body {
 }
 
 .dark-blue-bg {
-    /* background: #34495E; */
-    /*
-  background: -webkit-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
-  background:    -moz-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
-  background:     -ms-linear-gradient(90deg, #73C8A9 10%, #373B44 90%);
-  background:      -o-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); 
-  background:         linear-gradient(90deg, #73C8A9 10%, #373B44 90%);
-        */
-    
-    
-
   background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
-        
-          
-    
 }
 
 .big-image {
@@ -55,12 +41,11 @@ body {
 }
 
 .text-invoked-blue {
-    color: #59ABE3;
+    color: #59ABE3 !important;
 }
 
 .text-title {
-    font-size: 80px;
-    margin-bottom: 300px;
+    font-size: 45px;
     padding-bottom: 0;
 }
 
@@ -69,10 +54,22 @@ body {
     padding-top: 0;
 }
 
+.subtitle-text {
+    font-weight: 300;
+    font-size: 24px;
+    color: #eee;
+}
+
+.text-dark-blue {
+    color: #315262
+}
+
+
 /*http://www.blacktie.co/page/2 */
 
 #headerwrap {
-    padding-top: 15px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     min-height: 0.65vh;
     width: 100%
 }
@@ -87,4 +84,41 @@ body {
 
 .section-panel {
     margin-bottom: 40px;
+}
+
+.bigger-left-img-section {
+ padding-right: 0;   
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-dark-blue {
+  background-color: #3A6073;
+  border-color: #3A6073;
+    color: #eee;
+}
+.btn-dark-blue:hover,
+.btn-dark-blue:focus,
+.btn-dark-blue:active,
+.btn-dark-blue.active {
+  background-color: #315262;
+  border-color: #294451;
+}
+.btn-dark-blue.disabled:hover,
+.btn-dark-blue.disabled:focus,
+.btn-dark-blue.disabled:active,
+.btn-dark-blue.disabled.active,
+.btn-dark-blue[disabled]:hover,
+.btn-dark-blue[disabled]:focus,
+.btn-dark-blue[disabled]:active,
+.btn-dark-blue[disabled].active,
+fieldset[disabled] .btn-dark-blue:hover,
+fieldset[disabled] .btn-dark-blue:focus,
+fieldset[disabled] .btn-dark-blue:active,
+fieldset[disabled] .btn-dark-blue.active {
+  background-color: #3A6073;
+  border-color: #3A6073;
+    color: #eee;
 }
